@@ -8,7 +8,7 @@ export default function Home() {
       <Heading variant="mainHeading">Welcome to My Website</Heading>
       <Heading variant="firstSubHeading">First Subheading</Heading>
       <Heading variant="secondSubHeading">Second Subheading</Heading>
-      <Heading variant="thirdSubHeading">Third Subheading</Heading>
+      <Heading variant="thirdSubHeading">Third Subheading ....</Heading>
       <Heading variant="faintHeading">Faint Heading</Heading>
       <Heading variant="cardHeading">Card Heading</Heading>
       <DescriptionHeading icon={<IconRepository.BackwardArrow />}>This is a description heading with an icon.</DescriptionHeading>
