@@ -2,7 +2,7 @@
 import { HeadingProps } from "@/types/headingVariant.type";
 export const Heading = ({ children, variant }: HeadingProps) => {
     return (
-    <div className="text-red-600">
+    <div className="text-red-500">
       {variant === "mainHeading" && (
         <div className="font-['Cinzel'] font-bold text-[25px] leading-none tracking-normal">
           {children}

@@ -1,5 +1,6 @@
 import { DescriptionHeading } from '@/components/atoms/heading/descriptionHeading.atom';
 import { Heading } from '@/components/atoms/heading/heading.atom';
+import { TextAtom } from '@/components/atoms/texts/texts.atom';
 import { IconRepository } from '@/lib/repository/iconRepository';
 
 export default function Home() {
@@ -13,6 +14,10 @@ export default function Home() {
       <Heading variant="cardHeading">Card Heading</Heading>
       <DescriptionHeading icon={<IconRepository.BackwardArrow />}>This is a description heading with an icon.</DescriptionHeading>
       <DescriptionHeading>This is a description heading with an icon.</DescriptionHeading>
+        <TextAtom variant="descriptionText">This is a description text. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, pariatur inventore! Minus odio quia, vitae praesentium voluptatem vero officia, voluptatum quod odit quo similique cupiditate magnam ullam corporis. Similique, pariatur?</TextAtom>
+      <TextAtom variant="centralizedDescriptionText">This is a centralized description text.</TextAtom>
+      <TextAtom variant="reviewCardText">This is a review card text. fifsidjds ksjvdv scldih vso;jv</TextAtom>
+      <TextAtom variant="sampleCardText">This is a sample card text.</TextAtom>
     </div>
   );
 }
