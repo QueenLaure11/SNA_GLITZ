@@ -1,5 +1,7 @@
+import ShopButton from '@/components/atoms/button/button.atom';
 import { DescriptionHeading } from '@/components/atoms/heading/descriptionHeading.atom';
 import { Heading } from '@/components/atoms/heading/heading.atom';
+import ImageGallery from '@/components/atoms/image/image.atom';
 import { TextAtom } from '@/components/atoms/texts/texts.atom';
 import { IconRepository } from '@/lib/repository/iconRepository';
 
@@ -18,6 +20,8 @@ export default function Home() {
       <TextAtom variant="centralizedDescriptionText">This is a centralized description text.</TextAtom>
       <TextAtom variant="reviewCardText">This is a review card text. fifsidjds ksjvdv scldih vso;jv</TextAtom>
       <TextAtom variant="sampleCardText">This is a sample card text.</TextAtom>
+      <ShopButton>Shop Diamond Glitzz</ShopButton>
+      <ImageGallery image={"/images/rings/engagement_wedding_mobile_ring.jpg"} />
     </div>
   );
 }
