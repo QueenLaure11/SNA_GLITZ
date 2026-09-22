@@ -21,7 +21,10 @@ export default function Home() {
       <TextAtom variant="reviewCardText">This is a review card text. fifsidjds ksjvdv scldih vso;jv</TextAtom>
       <TextAtom variant="sampleCardText">This is a sample card text.</TextAtom>
       <ShopButton>Shop Diamond Glitzz</ShopButton>
-      <ImageGallery image={"/images/rings/engagement_wedding_mobile_ring.jpg"} />
+      <div className="h-64 w-72">
+        <ImageGallery image={"/images/rings/engagement_wedding_mobile_ring.png"} />
+      </div>
+      
     </div>
   );
 }

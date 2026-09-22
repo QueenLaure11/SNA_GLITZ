@@ -4,7 +4,7 @@ import Image from "next/image";
 const ImageGallery = ({ image }: ImageGalleryProps) => {
   return (
    <div
-          className="relative overflow-hidden rounded-2xl"
+          className="relative w-full aspect-square overflow-hidden rounded-2xl"
         >
           <Image
             src={image}
