@@ -4,6 +4,7 @@ import { DescriptionHeading } from '@/components/atoms/heading/descriptionHeadin
 import { Heading } from '@/components/atoms/heading/heading.atom';
 import ImageGallery from '@/components/atoms/image/image.atom';
 import { TextAtom } from '@/components/atoms/texts/texts.atom';
+import BannerSNAMolecule from '@/components/molecules/header/bannerSNA.molecule';
 import JewelryTabs from '@/components/molecules/tabs/jewelryTabs.molecule';
 import { IconRepository } from '@/lib/repository/iconRepository';
 
@@ -32,6 +33,7 @@ export default function Home() {
         tabs={["Earrings", "Rings", "Bracelets", "Necklaces", "Watches"]}
         onTabClick={handleTabChange}
       />
+      <BannerSNAMolecule bannerTitle="SNA GLITZZ" />
       <div className="h-64 w-72">
         <ImageGallery image={"/images/rings/engagement_wedding_mobile_ring.png"} />
       </div>
