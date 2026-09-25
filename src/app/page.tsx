@@ -2,9 +2,8 @@
 import ShopButton from '@/components/atoms/button/button.atom';
 import { DescriptionHeading } from '@/components/atoms/heading/descriptionHeading.atom';
 import { Heading } from '@/components/atoms/heading/heading.atom';
-import ImageGallery from '@/components/atoms/image/image.atom';
+// import ImageGallery from '@/components/atoms/image/image.atom';
 import { TextAtom } from '@/components/atoms/texts/texts.atom';
-import BannerSNAMolecule from '@/components/molecules/header/bannerSNA.molecule';
 import JewelryTabs from '@/components/molecules/tabs/jewelryTabs.molecule';
 import { IconRepository } from '@/lib/repository/iconRepository';
 
@@ -15,7 +14,7 @@ export default function Home() {
     // Do something with the tab
   };
   return (
-    <div className="flex flex-col flex-1 items-center bg-white">
+    <div className="flex flex-col flex-1 items-center px-80 bg-amber-300">
       <Heading variant="mainHeading">Welcome to My Website</Heading>
       <Heading variant="firstSubHeading">First Subheading</Heading>
       <Heading variant="secondSubHeading">Second Subheading</Heading>
@@ -33,10 +32,9 @@ export default function Home() {
         tabs={["Earrings", "Rings", "Bracelets", "Necklaces", "Watches"]}
         onTabClick={handleTabChange}
       />
-      <BannerSNAMolecule bannerTitle="SNA GLITZZ" />
-      <div className="h-64 w-72">
+      {/* <div className="h-64 w-72">
         <ImageGallery image={"/images/rings/engagement_wedding_mobile_ring.png"} />
-      </div>
+      </div> */}
       
       
     </div>
