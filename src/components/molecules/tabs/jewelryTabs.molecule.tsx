@@ -1,18 +1,12 @@
 "use client";
 
-import { useState } from "react";
 import React from "react";
 
-import { JewelryTabsProps, Tab } from "@/types/tabs.type";
+import { JewelryTabsProps } from "@/types/tabs.type";
 
 
-const JewelryTabs: React.FC<JewelryTabsProps> = ({ tabs, onTabClick }) => {
-  const [activeTab, setActiveTab] = useState<Tab>("Rings");
+const JewelryTabs: React.FC<JewelryTabsProps> = ({ tabs, handleTabClick, activeTab }) => {
 
-  const handleClick = (tab: Tab) => {
-    setActiveTab(tab);
-    onTabClick(tab); // call parent function
-  };
 
   return (
     <div>
@@ -20,7 +14,7 @@ const JewelryTabs: React.FC<JewelryTabsProps> = ({ tabs, onTabClick }) => {
         {tabs.map((tab) => (
           <button
             key={tab}
-            onClick={() => handleClick(tab)}
+            onClick={() => handleTabClick(tab)}
             style={{
               padding: "10px 30px",
               borderRadius: "25px",
