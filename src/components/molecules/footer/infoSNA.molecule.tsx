@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const infoSNAMolecule = ({ handleSubscribe }: InfoSNAProps) => {
   return (
-    <div className=" w-full px-80 py-4 bg-white items-center justify-center ">
+    <div className="px-80 py-4 bg-white flex flex-col gap-5">
       <div className="flex justify-between">
         <div className="flex flex-col gap-2.5">
           <Heading variant="faintHeading">Customer Care</Heading>
@@ -78,6 +78,28 @@ const infoSNAMolecule = ({ handleSubscribe }: InfoSNAProps) => {
           width={24}
           height={24}
         />
+      </div>
+      <div className="flex flex-col items-center mt-5 gap-10">
+        <Heading variant="firstSubHeading">SNA GLITZZ</Heading>
+        <div className="flex flex-col gap-2.5 ">
+          <div className="flex items-center justify-center gap-0.5">
+            <Image
+              src="/images/icons/Copyright.svg"
+              alt="Copyright Icon"
+              width={14}
+              height={14}
+            />
+            <TextAtom variant="descriptionText">
+              2023 SNA GLITZZ. All rights reserved
+            </TextAtom>
+          </div>
+          <div className="flex gap-4">
+            <TextAtom variant="descriptionText">Terms & Conditions</TextAtom>
+            <TextAtom variant="descriptionText">Cookie Settings</TextAtom>
+            <TextAtom variant="descriptionText">Cookie Policy</TextAtom>
+            <TextAtom variant="descriptionText">Privacy Policy</TextAtom>
+          </div>
+        </div>
       </div>
     </div>
   );
