@@ -1,6 +1,5 @@
 import { ButtonProps } from "@/types/button.type";
 
-
 const ShopButton = ({ children, onClick }: ButtonProps) => {
   return (
     <button
@@ -15,10 +14,10 @@ const ShopButton = ({ children, onClick }: ButtonProps) => {
         rounded-3xl
         border-[0.5px]
         py-2.5
-        font-['Poppins']
+        font-poppins
         text-sm
         font-normal
-        leading-none
+        leading-none 
         text-red-200
         transition
         hover:bg-[#FFF5F5]

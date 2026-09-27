@@ -18,9 +18,7 @@ export default function Home() {
       activeTab={activeTab}
         tabs={["Earrings", "Rings", "Bracelets", "Necklaces", "Watches"]}
       />
-      <div>
         <ProductCardOrganism activeTab={activeTab} />
-      </div>
       
     </div>
   );

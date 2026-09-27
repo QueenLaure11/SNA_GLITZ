@@ -1,4 +1,4 @@
-type HeadingVariant = "mainHeading" | "firstSubHeading" | "secondSubHeading" | "thirdSubHeading" | "faintHeading" | "cardHeading";
+export type HeadingVariant = "mainHeading" | "firstSubHeading" | "secondSubHeading" | "thirdSubHeading" | "faintHeading" | "cardHeading";
 export interface HeadingProps {
   children: React.ReactNode;
   variant: HeadingVariant;

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Poppins, Montserrat, Nunito, Cinzel } from "next/font/google";
 import "./globals.css";
 import BannerSNAMolecule from "@/components/molecules/header/bannerSNA.molecule";
 import InfoSNAMolecule from "@/components/molecules/footer/infoSNA.molecule";
@@ -13,6 +13,26 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'], // pick the weights you need
+  variable: '--font-poppins',
+})
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'], // pick the weights you need
+  variable: '--font-montserrat',
+})
+const nunito = Nunito({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'], // pick the weights you need
+  variable: '--font-nunito',
+})
+const cinzel = Cinzel({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'], // pick the weights you need
+  variable: '--font-cinzel',
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,11 +43,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${montserrat.variable} ${nunito.variable} ${cinzel.variable} h-full antialiased`}
     >
-      <BannerSNAMolecule bannerTitle="SNA GLITZZ" />
-      <body className="min-h-full flex flex-col">{children}</body>
-      <InfoSNAMolecule />
+      
+      <body className="min-h-full flex flex-col">
+        <BannerSNAMolecule bannerTitle="SNA GLITZZ" />
+        {children}
+        <InfoSNAMolecule />
+        </body>
+      
     </html>
   );
 }
