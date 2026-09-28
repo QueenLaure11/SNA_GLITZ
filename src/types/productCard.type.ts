@@ -7,6 +7,7 @@ export interface ProductCardProps {
   image: string;
   description?: string;
   details?: string;
+  onClick?: () => void;
   sizes?: string | string[];
 }
 export interface ProductCardOrganismProps {
