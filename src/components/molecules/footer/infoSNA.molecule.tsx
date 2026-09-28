@@ -39,7 +39,7 @@ const infoSNAMolecule = ({ handleSubscribe }: InfoSNAProps) => {
             <div className="flex justify-end">
               <button
                 onClick={handleSubscribe}
-                className="border border-red-600 text-red-500 px-5 py-1 rounded-4xl font-montserrat text-[12px] hover:bg-red-500 hover:text-white transition"
+                className="border border-red-500 text-primary-500 px-5 py-1 rounded-4xl font-montserrat text-[12px] hover:bg-red-500 hover:text-white transition"
               >
                 Subscribe
               </button>
@@ -80,7 +80,7 @@ const infoSNAMolecule = ({ handleSubscribe }: InfoSNAProps) => {
         />
       </div>
       <div className="flex flex-col items-center mt-5 gap-10">
-        <Heading variant="firstSubHeading">SNA GLITZZ</Heading>
+        <Heading variant="secondSubHeading">SNA GLITZZ</Heading>
         <div className="flex flex-col gap-2.5 ">
           <div className="flex items-center justify-center gap-0.5">
             <Image

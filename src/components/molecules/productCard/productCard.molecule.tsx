@@ -8,16 +8,13 @@ const ProductCardMolecule = ({ image, title, price }: ProductCardProps) => {
       className="
         rounded-2xl 
         overflow-hidden 
-        shadow-md 
         cursor-pointer 
         transition 
         duration-300 
-        hover:scale-[1] 
-        hover:shadow-xl
         border-[0.5px]
-        border-red-200
+        border-primary-200
         bg-transparent
-        hover:bg-[#FFF5F5]
+        hover:bg-primary-50
         w-full
       "
     >
@@ -31,8 +28,8 @@ const ProductCardMolecule = ({ image, title, price }: ProductCardProps) => {
         />
       </div>
 
-      <div className="px-4 pb-4 flex justify-between items-center">
-        <div className="flex flex-col gap-1">
+      <div className="px-4 pb-4 pt-2 flex justify-between items-center">
+        <div className="flex flex-col gap-2">
           <TextAtom variant="sampleCardText">{title}</TextAtom>
           <TextAtom variant="sampleCardText">${price}</TextAtom>
         </div>

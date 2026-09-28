@@ -11,4 +11,5 @@ export interface ProductCardProps {
 }
 export interface ProductCardOrganismProps {
 activeTab: string;
+productsData: ProductCardProps[]
 }

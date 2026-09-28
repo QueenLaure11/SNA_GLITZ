@@ -15,7 +15,7 @@ export const TextAtom = ({ children, variant }: TextProps) => {
       )}
 
       {variant === "reviewCardText" && (
-        <div className="font-nunito font-light italic text-sm leading-none tracking-normal">
+        <div className="font-nunito font-light italic text-sm leading-6 tracking-normal">
           {children}
         </div>
       )}

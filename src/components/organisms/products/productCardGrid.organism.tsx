@@ -1,8 +1,8 @@
 import ProductCardMolecule from "@/components/molecules/productCard/productCard.molecule";
-import { productsData } from "@/lib/data/productData";
+// import { productsData } from "@/lib/data/productData";
 import { ProductCardOrganismProps } from "@/types/productCard.type";
 
-const ProductCardOrganism = ({ activeTab }: ProductCardOrganismProps) => {
+const ProductCardOrganism = ({ activeTab, productsData }: ProductCardOrganismProps) => {
     const rings = productsData.filter((p) => p.category === "Rings");
   return (
     <div className="grid grid-cols-4 gap-10 w-full">

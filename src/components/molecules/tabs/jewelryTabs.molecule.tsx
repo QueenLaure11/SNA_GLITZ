@@ -10,7 +10,7 @@ const JewelryTabs: React.FC<JewelryTabsProps> = ({ tabs, handleTabClick, activeT
 
   return (
     <div>
-      <nav style={{ display: "flex", gap: "1rem" }}>
+      <nav style={{ display: "flex", gap: "1rem", marginTop: "65px" }}>
         {tabs.map((tab) => (
           <button
             key={tab}

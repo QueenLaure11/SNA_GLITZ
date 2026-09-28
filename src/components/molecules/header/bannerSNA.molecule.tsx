@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const BannerSNAMolecule = ({ bannerTitle }: bannerSNAMoleculeProps) => {
   return (
-    <div className=" flex w-full bg-white items-center px-80 py-4">
+    <div className=" flex fixed w-full bg-white items-center px-80 py-4">
       <div className="w-full flex items-center justify-between bg-white">
         <div className="flex items-center gap-4">
           <Image

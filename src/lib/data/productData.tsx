@@ -49,7 +49,7 @@ export const productsData: ProductCardProps[] = [
   {
     id: "ring-005",
     category: "Rings",
-    title: "Jaxon Golden Radiance Ring",
+    title: "Jaxon Golden Radiance",
     price: 200,
     image: "/images/rings/jaxon golden radiance.png",
     description:
