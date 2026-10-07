@@ -184,9 +184,9 @@ export const productsData: ProductCardProps[] = [
   {
     id: "watch-001",
     category: "Watches",
-    title: "Midnight Luxe Watch",
+    title: "Black silver Watch",
     price: 1200,
-    image: "/images/watches/midnight-luxe.png",
+    image: "/images/watches/black-silver-watch.jpg",
     description:
       "A sleek black timepiece with gold accents designed for modern elegance.",
     details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
@@ -195,14 +195,81 @@ export const productsData: ProductCardProps[] = [
   {
     id: "watch-002",
     category: "Watches",
-    title: "Crystal Aura Watch",
+    title: "Bonsai Casio",
     price: 950,
-    image: "/images/watches/crystal-aura.png",
+    image: "/images/watches/bonsai-casio-watch.jpg",
     description:
       "A shimmering watch featuring crystal embellishments for a luxurious finish.",
     details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
     sizes: ["Standard"],
   },
+  {
+    id: "watch-003",
+    category: "Watches",
+    title: "Brown leather",
+    price: 950,
+    image: "/images/watches/brown-leather-watch.jpg",
+    description:
+      "A shimmering watch featuring crystal embellishments for a luxurious finish.",
+    details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
+    sizes: ["Standard"],
+  },
+  {
+    id: "watch-004",
+    category: "Watches",
+    title: "Gold watch",
+    price: 950,
+    image: "/images/watches/gold-watch-leather-strap.jpg",
+    description:
+      "A shimmering watch featuring crystal embellishments for a luxurious finish.",
+    details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
+    sizes: ["Standard"],
+  },
+  {
+    id: "watch-005",
+    category: "Watches",
+    title: "High End Timepiece",
+    price: 950,
+    image: "/images/watches/high-end-timepiece.jpg",
+    description:
+      "A shimmering watch featuring crystal embellishments for a luxurious finish.",
+    details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
+    sizes: ["Standard"],
+  },
+  {
+    id: "watch-006",
+    category: "Watches",
+    title: "Rolex leather",
+    price: 950,
+    image: "/images/watches/rolex-leather-watch.jpg",
+    description:
+      "A shimmering watch featuring crystal embellishments for a luxurious finish.",
+    details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
+    sizes: ["Standard"],
+  },
+  {
+    id: "watch-007",
+    category: "Watches",
+    title: "Stainless steel",
+    price: 950,
+    image: "/images/watches/stainless-steel-watch.jpg",
+    description:
+      "A shimmering watch featuring crystal embellishments for a luxurious finish.",
+    details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
+    sizes: ["Standard"],
+  },
+  {
+    id: "watch-008",
+    category: "Watches",
+    title: "Timex leather",
+    price: 950,
+    image: "/images/watches/timex-black-leather-strap.jpg",
+    description:
+      "A shimmering watch featuring crystal embellishments for a luxurious finish.",
+    details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
+    sizes: ["Standard"],
+  },
+  
   /* ---------------------- EARRINGS ---------------------- */
   {
     id: "earring-001",
