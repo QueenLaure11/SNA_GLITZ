@@ -7,6 +7,7 @@ const ProductCardOrganism = ({ activeTab, productsData }: ProductCardOrganismPro
     const earrings = productsData.filter((p) => p.category === "Earrings");
     const bracelets = productsData.filter((p) => p.category === "Bracelets");
     const watches = productsData.filter((p) => p.category === "Watches");
+    const necklaces = productsData.filter((p) => p.category === "Necklaces");
   return (
     <div className="grid grid-cols-4 gap-10 w-full">
         {activeTab === "Rings" && rings.map((product) => (
@@ -31,6 +32,13 @@ const ProductCardOrganism = ({ activeTab, productsData }: ProductCardOrganismPro
                 image={product.image} id={product.id}        />
       ))}
         {activeTab === "Watches" && watches.map((product) => (
+        <ProductCardMolecule
+                key={product.id}
+                title={product.title}
+                price={product.price}
+                image={product.image} id={product.id}        />
+      ))}
+        {activeTab === "Necklaces" && necklaces.map((product) => (
         <ProductCardMolecule
                 key={product.id}
                 title={product.title}
