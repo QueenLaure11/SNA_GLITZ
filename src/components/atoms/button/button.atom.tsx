@@ -6,7 +6,7 @@ const ShopButton = ({ children, onClick }: ButtonProps) => {
       type="button"
       onClick={onClick}
       className="
-        border-red-200
+        border-primary-200
         bg-transparent
         h-10.5
         w-full
@@ -15,12 +15,12 @@ const ShopButton = ({ children, onClick }: ButtonProps) => {
         border-[0.5px]
         py-2.5
         font-poppins
-        text-sm
+        text-lg
         font-normal
         leading-none 
-        text-red-200
+        text-primary-200
         transition
-        hover:bg-[#FFF5F5]
+        hover:bg-primary-50
       "
     >
       {children}
