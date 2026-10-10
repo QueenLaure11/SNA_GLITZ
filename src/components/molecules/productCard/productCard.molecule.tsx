@@ -2,7 +2,7 @@ import { TextAtom } from "@/components/atoms/texts/texts.atom";
 import { ProductCardProps } from "@/types/productCard.type";
 import Image from "next/image";
 
-const ProductCardMolecule = ({ image, title, price }: ProductCardProps) => {
+const ProductCardMolecule = ({ image, title, price, id, onClick }: ProductCardProps) => {
   return (
     <div
       className="
@@ -18,6 +18,7 @@ const ProductCardMolecule = ({ image, title, price }: ProductCardProps) => {
         w-full
         max-w-65
       "
+      onClick={() => onClick?.(id)}
     >
       <div className="w-full h-64 overflow-hidden p-2 rounded-2xl">
         <Image
@@ -28,16 +29,6 @@ const ProductCardMolecule = ({ image, title, price }: ProductCardProps) => {
           className="object-cover w-full h-full rounded-2xl"
         />
       </div>
-       {/* <div className="w-full h-55 overflow-hidden rounded-lg">
-        <Image
-          src={image}
-          alt={title}
-          width={300}
-          height={300}
-          className="w-full h-full object-cover hover:scale-110 transition-all duration-300"
-        />
-      </div> */}
-
       <div className="px-4 pb-4 pt-2 flex justify-between items-center">
         <div className="flex flex-col gap-2">
           <TextAtom variant="sampleCardText">{title}</TextAtom>

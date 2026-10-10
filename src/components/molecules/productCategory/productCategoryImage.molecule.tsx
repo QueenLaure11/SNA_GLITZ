@@ -3,7 +3,7 @@ import { ProductCategoryImageProps } from "@/types/productCategory.type";
 
 const ProductCategoryImage = ({image,title }: ProductCategoryImageProps) => {
   return (
-       <div className="items-center rounded-2xl overflow-hidden w-full max-h-96">
+       <div className="items-center rounded-2xl overflow-hidden w-full max-h-80">
           <Image
             src={image}
             alt={title}

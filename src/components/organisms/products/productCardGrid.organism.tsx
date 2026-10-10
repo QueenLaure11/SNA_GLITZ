@@ -2,7 +2,7 @@ import ProductCardMolecule from "@/components/molecules/productCard/productCard.
 // import { productsData } from "@/lib/data/productData";
 import { ProductCardOrganismProps } from "@/types/productCard.type";
 
-const ProductCardOrganism = ({ activeTab, productsData }: ProductCardOrganismProps) => {
+const ProductCardOrganism = ({ activeTab, productsData, handleCardClick }: ProductCardOrganismProps) => {
     const rings = productsData.filter((p) => p.category === "Rings");
     const earrings = productsData.filter((p) => p.category === "Earrings");
     const bracelets = productsData.filter((p) => p.category === "Bracelets");
@@ -15,35 +15,45 @@ const ProductCardOrganism = ({ activeTab, productsData }: ProductCardOrganismPro
                 key={product.id}
                 title={product.title}
                 price={product.price}
-                image={product.image} id={product.id}        />
+                image={product.image} id={product.id}
+                onClick={() => handleCardClick?.(product.id)}
+                        />
       ))}
         {activeTab === "Earrings" && earrings.map((product) => (
         <ProductCardMolecule
                 key={product.id}
                 title={product.title}
                 price={product.price}
-                image={product.image} id={product.id}        />
+                image={product.image} id={product.id}
+                onClick={() => handleCardClick?.(product.id)}
+                        />
       ))}
         {activeTab === "Bracelets" && bracelets.map((product) => (
         <ProductCardMolecule
                 key={product.id}
                 title={product.title}
                 price={product.price}
-                image={product.image} id={product.id}        />
+                image={product.image} id={product.id}
+                onClick={() => handleCardClick?.(product.id)}
+                        />
       ))}
         {activeTab === "Watches" && watches.map((product) => (
         <ProductCardMolecule
                 key={product.id}
                 title={product.title}
                 price={product.price}
-                image={product.image} id={product.id}        />
+                image={product.image} id={product.id}
+                onClick={() => handleCardClick?.(product.id)}
+                />
       ))}
         {activeTab === "Necklaces" && necklaces.map((product) => (
         <ProductCardMolecule
                 key={product.id}
                 title={product.title}
                 price={product.price}
-                image={product.image} id={product.id}        />
+                image={product.image} id={product.id}
+                onClick={() => handleCardClick?.(product.id)}
+                />
       ))}
     </div>
   );

@@ -5,9 +5,11 @@ import { ProductCategoryDescriptionProps } from "@/types/productCategory.type";
 
 const ProductCategoryDescription = ({ heading, description, buttonText, onClick }: ProductCategoryDescriptionProps) => {
   return (
-   <div className="flex flex-col gap-4 items-center justify-center text-center w-full max-w-2xl mx-auto">
+   <div className="flex flex-col gap-8 items-center justify-center text-center w-full max-w-2xl mx-auto">
     <Heading variant="firstSubHeading">{heading}</Heading>
-    <TextAtom variant="centralizedDescriptionText">{description}</TextAtom>
+    <div className="px-10">
+          <TextAtom variant="centralizedDescriptionText">{description}</TextAtom>
+    </div>
     <div className="w-full max-w-xs">
         <ShopButton onClick={onClick}>
       {buttonText}

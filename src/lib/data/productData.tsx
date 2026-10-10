@@ -2,19 +2,8 @@ import { ProductCardProps } from "@/types/productCard.type";
 
 export const productsData: ProductCardProps[] = [
   /* ---------------------- RINGS ---------------------- */
-  {
+   {
     id: "ring-001",
-    category: "Rings",
-    title: "Sunburst Ring",
-    price: 540,
-    image: "/images/rings/sunburst.png",
-    description:
-      "A radiant ring featuring a brilliant-cut centerpiece designed to mimic the glow of the sun.",
-    details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
-    sizes:"5.8",
-  },
-  {
-    id: "ring-002",
     category: "Rings",
     title: "Pearl Essence",
     price: 200,
@@ -24,6 +13,18 @@ export const productsData: ProductCardProps[] = [
     details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
     sizes: ["6", "7", "8"],
   },
+  {
+    id: "ring-002",
+    category: "Rings",
+    title: "Sunburst Ring",
+    price: 540,
+    image: "/images/rings/sunburst.png",
+    description:
+      "A radiant ring featuring a brilliant-cut centerpiece designed to mimic the glow of the sun.",
+    details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
+    sizes:"5.8",
+  },
+ 
   {
     id: "ring-003",
     category: "Rings",
@@ -92,28 +93,29 @@ export const productsData: ProductCardProps[] = [
   },
 
   /* ---------------------- BRACELETS ---------------------- */
-  {
+    {
     id: "bracelet-001",
     category: "Bracelets",
-    title: "Cartier panther",
-    price: 320,
-    image: "/images/bracelets/cartier-panther-head.jpg",
-    description:
-      "Intricately woven gold bracelet crafted for durability and luxury.",
-    details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
-    sizes: ["Small", "Medium", "Large"],
-  },
-  {
-    id: "bracelet-002",
-    category: "Bracelets",
-    title: "Crystal Turquoise",
+    title: "Sophisticated gold",
     price: 780,
-    image: "/images/bracelets/crystals-turquoise-beads.jpg",
+    image: "/images/bracelets/sophisticated-gold-jewelry.jpg",
     description:
       "Premium bracelet featuring diamond‑studded links for a bold, glamorous look.",
-    sizes: ["Small", "Medium", "Large"],
+    details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
+    sizes: ["Medium", "Large"],
   },
-  {
+    {
+    id: "bracelet-002",
+    category: "Bracelets",
+    title: "Initials bracelet",
+    price: 780,
+    image: "/images/bracelets/initial-letter-simplicity.jpg",
+    description:
+      "Premium bracelet featuring diamond‑studded links for a bold, glamorous look.",
+    details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
+    sizes: ["Medium", "Large"],
+  },
+    {
     id: "bracelet-003",
     category: "Bracelets",
     title: "Minimalist bangle",
@@ -124,27 +126,26 @@ export const productsData: ProductCardProps[] = [
     details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
     sizes: ["Medium", "Large"],
   },
-  {
+    {
     id: "bracelet-004",
     category: "Bracelets",
-    title: "Initials bracelet",
+    title: "Crystal Turquoise",
     price: 780,
-    image: "/images/bracelets/initial-letter-simplicity.jpg",
+    image: "/images/bracelets/crystals-turquoise-beads.jpg",
     description:
       "Premium bracelet featuring diamond‑studded links for a bold, glamorous look.",
-    details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
-    sizes: ["Medium", "Large"],
+    sizes: ["Small", "Medium", "Large"],
   },
   {
     id: "bracelet-005",
     category: "Bracelets",
-    title: "Sophisticated gold",
-    price: 780,
-    image: "/images/bracelets/sophisticated-gold-jewelry.jpg",
+    title: "Cartier panther",
+    price: 320,
+    image: "/images/bracelets/cartier-panther-head.jpg",
     description:
-      "Premium bracelet featuring diamond‑studded links for a bold, glamorous look.",
+      "Intricately woven gold bracelet crafted for durability and luxury.",
     details: "The Diamond Gold Lining ring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
-    sizes: ["Medium", "Large"],
+    sizes: ["Small", "Medium", "Large"],
   },
   {
     id: "bracelet-006",
@@ -361,8 +362,19 @@ export const productsData: ProductCardProps[] = [
   },
   
   /* ---------------------- EARRINGS ---------------------- */
-  {
+    {
     id: "earring-001",
+    category: "Earrings",
+    title: "Stud jewelry",
+    price: 950,
+    image: "/images/earrings/stud-diamond-jewelry.jpg",
+    description:
+      "Elegant earrings with delicate gold accents, designed to add a touch of sophistication and modern beauty to any look.",
+    details: "The Diamond Gold Lining earring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
+    sizes: ["Standard"],
+  },
+  {
+    id: "earring-002",
     category: "Earrings",
     title: "Heart earrings",
     price: 1200,
@@ -373,7 +385,7 @@ export const productsData: ProductCardProps[] = [
     sizes: ["Standard"],
   },
   {
-    id: "earring-002",
+    id: "earring-003",
     category: "Earrings",
     title: "Emerald gold",
     price: 950,
@@ -384,7 +396,7 @@ export const productsData: ProductCardProps[] = [
     sizes: ["Standard"],
   },
   {
-    id: "earring-003",
+    id: "earring-004",
     category: "Earrings",
     title: "Luxury fashion",
     price: 950,
@@ -395,22 +407,11 @@ export const productsData: ProductCardProps[] = [
     sizes: ["Standard"],
   },
   {
-    id: "earring-004",
+    id: "earring-005",
     category: "Earrings",
     title: "Sapphire earring",
     price: 950,
     image: "/images/earrings/sapphire-diamond-earring.jpg",
-    description:
-      "Elegant earrings with delicate gold accents, designed to add a touch of sophistication and modern beauty to any look.",
-    details: "The Diamond Gold Lining earring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",
-    sizes: ["Standard"],
-  },
-  {
-    id: "earring-005",
-    category: "Earrings",
-    title: "Stud jewelry",
-    price: 950,
-    image: "/images/earrings/stud-diamond-jewelry.jpg",
     description:
       "Elegant earrings with delicate gold accents, designed to add a touch of sophistication and modern beauty to any look.",
     details: "The Diamond Gold Lining earring is a luxurious and sophisticated statement piece. It is made from the finest 18-karat gold and features a stunning round-cut diamond at its center, surrounded by a delicate halo of smaller diamonds. The band has a beautiful, intricate gold lining that adds depth and texture to the overall look, making it unique and eye-catching. This exquisite ring is perfect for any special occasion, whether worn as an engagement ring or as a beautiful accessory.",

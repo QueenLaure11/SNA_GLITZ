@@ -7,10 +7,11 @@ export interface ProductCardProps {
   image: string;
   description?: string;
   details?: string;
-  onClick?: () => void;
+  onClick?: (id: string) => void;
   sizes?: string | string[];
 }
 export interface ProductCardOrganismProps {
 activeTab: string;
 productsData: ProductCardProps[]
+handleCardClick?: (id: string) => void;
 }

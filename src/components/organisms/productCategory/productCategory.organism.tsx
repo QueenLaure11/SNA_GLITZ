@@ -17,7 +17,7 @@ const ProductCategoryOrganism = ({
   return (
     <>
       {activeTab === "Rings" && (
-        <div className="flex gap-2">
+        <div className="flex gap-2 w-full items-center justify-between">
           <ProductCategoryDescription
             heading={heading}
             description={rings.description || ""}
@@ -27,7 +27,7 @@ const ProductCategoryOrganism = ({
         </div>
       )}
       {activeTab === "Earrings" && (
-        <div>
+        <div className="flex gap-2 items-center justify-between">
           <ProductCategoryDescription
             heading={heading}
             description={earrings.description || ""}
@@ -37,7 +37,7 @@ const ProductCategoryOrganism = ({
         </div>
       )}
       {activeTab === "Bracelets" && (
-        <div>
+        <div className="flex gap-2 items-center justify-between">
           <ProductCategoryDescription
             heading={heading}
             description={bracelets.description || ""}
@@ -47,7 +47,7 @@ const ProductCategoryOrganism = ({
         </div>
       )}
       {activeTab === "Watches" && (
-        <div>
+        <div className="flex gap-2 items-center justify-between">
           <ProductCategoryDescription
             heading={heading}
             description={watches.description || ""}
@@ -57,7 +57,7 @@ const ProductCategoryOrganism = ({
         </div>
       )}
       {activeTab === "Necklaces" && (
-        <div>
+        <div className="flex gap-2 items-center justify-between">
           <ProductCategoryDescription
             heading={heading}
             description={necklaces.description || ""}
